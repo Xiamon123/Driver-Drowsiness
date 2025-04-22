@@ -1,4 +1,4 @@
-Drowsiness Detection using CNN
+#Drowsiness Detection using CNN
 Overview
 Drowsiness detection is a crucial application in driver safety systems to prevent accidents caused by fatigue. This project implements a Convolutional Neural Network (CNN) to classify images of a driver's face into different states:
 
@@ -8,7 +8,7 @@ Yawning
 Not Yawning
 By analyzing these features, the model determines whether the driver is drowsy and raises an alert if necessary.
 
-Features
+#Features
 Real-time detection of drowsiness.
 CNN-based classification model.
 Trained on a dataset containing images of open/closed eyes and yawning/not yawning.
@@ -25,7 +25,7 @@ To run the project download the dataset from the below link
 
 https://drive.google.com/drive/folders/1Sn2ZZ4GXwTHQLvC8cvM2tgwf-fOeItUL?usp=sharing
 
-Model Architecture
+#Model Architecture
 The model is built using a deep CNN with multiple convolutional layers followed by dense layers for classification. The key components are:
 
 Convolutional Layers: Extract spatial features from images.
@@ -51,7 +51,7 @@ This will open a webcam window, process frames, and detect drowsiness in real-ti
 Results
 The model achieves high accuracy of 96% in detecting drowsiness and provides reliable predictions for different facial states.
 
-Future Improvements
+#Future Improvements
 Enhance dataset size and diversity.
 Improve real-time processing speed.
 Implement a mobile application for on-the-go monitoring.
